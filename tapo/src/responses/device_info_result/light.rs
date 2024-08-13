@@ -45,7 +45,6 @@ pub struct DeviceInfoLightResult {
     pub brightness: u8,
     /// The default state of a device to be used when internet connectivity is lost after a power cut.
     pub default_states: DefaultLightState,
-    pub overheated: bool,
 }
 
 #[cfg(feature = "python")]

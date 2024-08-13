@@ -29,7 +29,6 @@ class DeviceInfoHubResult:
     # Unique to this device
     in_alarm_source: str
     in_alarm: bool
-    overheated: bool
 
     def to_dict(self) -> dict:
         """Gets all the properties of this result as a dictionary.

@@ -39,7 +39,6 @@ class DeviceInfoColorLightResult:
     dynamic_light_effect_enable: bool
     dynamic_light_effect_id: Optional[str]
     hue: Optional[int]
-    overheated: bool
     saturation: Optional[int]
 
     def to_dict(self) -> dict:

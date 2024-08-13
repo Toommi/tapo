@@ -43,7 +43,6 @@ pub struct DeviceInfoRgbicLightStripResult {
     /// The default state of a device to be used when internet connectivity is lost after a power cut.
     pub default_states: DefaultRgbicLightStripState,
     pub hue: Option<u16>,
-    pub overheated: bool,
     pub saturation: Option<u16>,
 }
 

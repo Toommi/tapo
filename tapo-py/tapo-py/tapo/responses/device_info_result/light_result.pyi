@@ -35,7 +35,6 @@ class DeviceInfoLightResult:
     brightness: int
     default_states: DefaultLightState
     """The default state of a device to be used when internet connectivity is lost after a power cut."""
-    overheated: bool
 
     def to_dict(self) -> dict:
         """Gets all the properties of this result as a dictionary.

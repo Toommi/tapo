@@ -38,7 +38,6 @@ pub struct DeviceInfoHubResult {
     //
     pub in_alarm_source: String,
     pub in_alarm: bool,
-    pub overheated: bool,
 }
 
 #[cfg(feature = "python")]

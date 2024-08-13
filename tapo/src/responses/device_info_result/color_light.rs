@@ -47,7 +47,6 @@ pub struct DeviceInfoColorLightResult {
     pub dynamic_light_effect_enable: bool,
     pub dynamic_light_effect_id: Option<String>,
     pub hue: Option<u16>,
-    pub overheated: bool,
     pub saturation: Option<u16>,
 }
 

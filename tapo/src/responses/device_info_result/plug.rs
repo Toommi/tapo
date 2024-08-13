@@ -41,7 +41,6 @@ pub struct DeviceInfoPlugResult {
     //
     /// The default state of a device to be used when internet connectivity is lost after a power cut.
     pub default_states: DefaultPlugState,
-    pub overheated: bool,
 }
 
 #[cfg(feature = "python")]
