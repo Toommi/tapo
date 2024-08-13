@@ -34,7 +34,7 @@ class DeviceInfoPlugResult:
     # Unique to this device
     default_states: DefaultPlugState
     """The default state of a device to be used when internet connectivity is lost after a power cut."""
-    overheated: bool
+    overheat_status: bool
 
     def to_dict(self) -> dict:
         """Gets all the properties of this result as a dictionary.
